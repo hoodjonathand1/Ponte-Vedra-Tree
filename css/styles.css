@@ -153,9 +153,9 @@ section { padding: 90px 0; }
   flex-shrink: 0;
 }
 .nav-logo-img {
-  height: 52px;
-  width: auto;
-  border-radius: 50%;
+  height: 64px;
+  width: 64px;
+  object-fit: contain;
   display: block;
   transition: transform var(--transition);
 }
@@ -164,8 +164,8 @@ section { padding: 90px 0; }
 }
 .footer-logo-img {
   height: 90px;
-  width: auto;
-  border-radius: 50%;
+  width: 90px;
+  object-fit: contain;
   margin-bottom: 1rem;
   display: block;
 }
@@ -752,8 +752,6 @@ select { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmln
   padding-bottom: 3rem;
   border-bottom: 1px solid rgba(255,255,255,.08);
 }
-.footer-brand .logo-main { font-family: 'Merriweather', serif; font-size: 1.3rem; font-weight: 900; color: #fff; }
-.footer-brand .logo-sub  { font-size: .65rem; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--accent); }
 .footer-brand p { font-size: .9rem; color: rgba(255,255,255,.55); margin-top: 1rem; line-height: 1.7; }
 .footer-social { display: flex; gap: .6rem; margin-top: 1.5rem; }
 .social-link {
