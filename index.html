@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ponte Vedra Tree – Professional tree removal, trimming, palm pruning, stump grinding, and debris removal services in Ponte Vedra, FL and surrounding areas." />
+  <title>Ponte Vedra Tree | Professional Tree Services in Ponte Vedra, FL</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <style>
+    /* ---- Homepage-only overrides ---- */
+    .nav { background: transparent; }
+    .hero-scroll-indicator {
+      position: absolute;
+      bottom: 6rem;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: .5rem;
+      color: rgba(255,255,255,.5);
+      font-size: .75rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      z-index: 2;
+      animation: bounce 2s infinite;
+    }
+    .hero-scroll-indicator i { font-size: 1.1rem; }
+    @keyframes bounce {
+      0%, 100% { transform: translateX(-50%) translateY(0); }
+      50%       { transform: translateX(-50%) translateY(8px); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav" id="main-nav" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Ponte Vedra Tree – Home">
+        <span class="logo-main">Ponte Vedra Tree</span>
+        <span class="logo-sub">Professional Tree Services</span>
+      </a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="tel:9044771756" class="nav-phone" aria-label="Call us">
+          <i class="fa-solid fa-phone"></i>
+          (904) 477-1756
+        </a>
+        <a href="contact.html" class="btn btn-primary btn-sm">Free Estimate</a>
+      </div>
+
+      <button class="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile nav -->
+  <div class="nav-mobile" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="tel:9044771756"><i class="fa-solid fa-phone" style="margin-right:.5rem;color:var(--accent)"></i>(904) 477-1756</a>
+    <a href="contact.html" class="btn btn-primary">Get a Free Estimate</a>
+  </div>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-label="Hero">
+      <div class="container hero-content">
+        <div class="hero-badge fade-up">
+          <i class="fa-solid fa-leaf"></i>
+          Serving Ponte Vedra &amp; Surrounding Areas
+        </div>
+
+        <h1 class="fade-up delay-1">
+          Expert Tree Care<br />
+          You Can <span>Trust</span>
+        </h1>
+
+        <p class="fade-up delay-2">
+          Licensed, insured, and dedicated to keeping your property safe and beautiful.
+          From full tree removals to palm pruning — we do it all with precision and care.
+        </p>
+
+        <div class="hero-actions fade-up delay-3">
+          <a href="contact.html" class="btn btn-primary btn-lg">
+            <i class="fa-solid fa-clipboard-list"></i>
+            Get a Free Estimate
+          </a>
+          <a href="services.html" class="btn btn-outline-white btn-lg">
+            <i class="fa-solid fa-tree"></i>
+            Our Services
+          </a>
+        </div>
+
+        <div class="hero-trust fade-up delay-4">
+          <div class="trust-item">
+            <i class="fa-solid fa-shield-halved"></i>
+            <span>Fully Licensed &amp; Insured</span>
+          </div>
+          <div class="trust-item">
+            <i class="fa-solid fa-star"></i>
+            <span>5-Star Rated Service</span>
+          </div>
+          <div class="trust-item">
+            <i class="fa-solid fa-clock"></i>
+            <span>Fast Response Times</span>
+          </div>
+          <div class="trust-item">
+            <i class="fa-solid fa-broom"></i>
+            <span>Full Cleanup Included</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-scroll-indicator" aria-hidden="true">
+        <span>Scroll</span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- ===== STATS BAR ===== -->
+    <section class="stats-bar" aria-label="Statistics">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item fade-up">
+            <span class="stat-num" data-target="500" data-suffix="+">500+</span>
+            <span class="stat-label">Trees Removed</span>
+          </div>
+          <div class="stat-item fade-up delay-1">
+            <span class="stat-num" data-target="300" data-suffix="+">300+</span>
+            <span class="stat-label">Happy Customers</span>
+          </div>
+          <div class="stat-item fade-up delay-2">
+            <span class="stat-num" data-target="5">5</span>
+            <span class="stat-label">Services Offered</span>
+          </div>
+          <div class="stat-item fade-up delay-3">
+            <span class="stat-num" data-target="100" data-suffix="%">100%</span>
+            <span class="stat-label">Satisfaction Guarantee</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES OVERVIEW ===== -->
+    <section class="services-section" id="services" aria-label="Our Services">
+      <div class="container">
+        <div class="services-header">
+          <span class="section-label">What We Do</span>
+          <h2 class="section-heading">Our Tree Services</h2>
+          <p class="section-sub">
+            We offer a full range of professional tree care services for residential and
+            commercial properties throughout Ponte Vedra and Northeast Florida.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1 -->
+          <article class="service-card fade-up">
+            <div class="service-icon"><i class="fa-solid fa-chainsaw"></i></div>
+            <h3>Tree Removals &amp; Clean Up</h3>
+            <p>Safe, efficient removal of trees of any size — including full site cleanup. We leave your property looking pristine after every job.</p>
+            <a href="services.html#tree-removal" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="service-card fade-up delay-1">
+            <div class="service-icon"><i class="fa-solid fa-scissors"></i></div>
+            <h3>Tree Trimming &amp; Pruning</h3>
+            <p>Shape, thin, and maintain the health of your trees with expert trimming and pruning. Improve structure, safety, and curb appeal.</p>
+            <a href="services.html#tree-trimming" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="service-card fade-up delay-2">
+            <div class="service-icon"><i class="fa-solid fa-seedling"></i></div>
+            <h3>Palm Pruning</h3>
+            <p>Keep your palms healthy and hurricane-ready with proper frond removal and boot cleaning. Essential care for Florida's iconic palms.</p>
+            <a href="services.html#palm-pruning" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="service-card fade-up delay-1">
+            <div class="service-icon"><i class="fa-solid fa-gear"></i></div>
+            <h3>Stump Grinding</h3>
+            <p>Eliminate unsightly and hazardous stumps with professional grinding. Reclaim your yard and prevent pest infestations in old root systems.</p>
+            <a href="services.html#stump-grinding" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="service-card fade-up delay-2">
+            <div class="service-icon"><i class="fa-solid fa-truck-ramp-box"></i></div>
+            <h3>Debris Removal</h3>
+            <p>Storm debris, fallen branches, or yard waste — we haul it all away. Fast, thorough, and affordable debris removal for any property size.</p>
+            <a href="services.html#debris-removal" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+        </div>
+
+        <div class="text-center mt-4 fade-up">
+          <a href="services.html" class="btn btn-green btn-lg" style="margin-top:1rem">
+            View All Services <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY CHOOSE US ===== -->
+    <section class="why-section" id="why-us" aria-label="Why Choose Us">
+      <div class="container why-inner">
+        <!-- Visual side -->
+        <div class="why-visual fade-up">
+          <!-- Replace this div with an <img> tag when photos are available -->
+          <div class="why-visual-placeholder">
+            <i class="fa-solid fa-tree" style="font-size:6rem;color:rgba(255,255,255,.25);display:block;margin-bottom:1rem"></i>
+            <span style="font-size:.85rem;font-style:italic;color:rgba(255,255,255,.4)">Add your photo here</span>
+          </div>
+          <div class="why-badge">
+            <i class="fa-solid fa-shield-halved"></i>
+            <div>
+              <strong>Licensed &amp; Insured</strong>
+              <span>Your property is protected</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Content side -->
+        <div class="why-content">
+          <span class="section-label">Why Choose Us</span>
+          <h2 class="section-heading">The Ponte Vedra Tree Difference</h2>
+          <p>When it comes to your trees and your property, you deserve a crew that treats every job with expertise and respect. Here's what sets us apart from the rest.</p>
+
+          <ul class="why-list">
+            <li class="why-item fade-up delay-1">
+              <div class="why-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+              <div class="why-text">
+                <strong>Local Experts</strong>
+                <p>We know Ponte Vedra's trees, soil, and storm patterns. Local knowledge means better, safer service for your specific landscape.</p>
+              </div>
+            </li>
+            <li class="why-item fade-up delay-2">
+              <div class="why-icon"><i class="fa-solid fa-dollar-sign"></i></div>
+              <div class="why-text">
+                <strong>Transparent, Fair Pricing</strong>
+                <p>No hidden fees. We provide honest, upfront estimates so you always know what to expect before we start any work.</p>
+              </div>
+            </li>
+            <li class="why-item fade-up delay-3">
+              <div class="why-icon"><i class="fa-solid fa-broom"></i></div>
+              <div class="why-text">
+                <strong>Complete Cleanup Guaranteed</strong>
+                <p>We don't just remove — we restore. Every job includes thorough cleanup and hauling so your yard looks better than when we arrived.</p>
+              </div>
+            </li>
+            <li class="why-item fade-up delay-4">
+              <div class="why-icon"><i class="fa-solid fa-bolt"></i></div>
+              <div class="why-text">
+                <strong>Fast &amp; Reliable Scheduling</strong>
+                <p>Storm damage or routine maintenance — we show up on time, every time, and get the job done right the first time.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA BANNER ===== -->
+    <section class="cta-banner" aria-label="Call to action">
+      <div class="container">
+        <span class="section-label" style="color:var(--accent)">Ready to Get Started?</span>
+        <h2 class="fade-up">Request Your Free Estimate Today</h2>
+        <p class="fade-up delay-1">
+          No job too big or too small. Call us or fill out our quick online form and we'll be in touch within 24 hours.
+        </p>
+        <div class="cta-actions fade-up delay-2">
+          <a href="contact.html" class="btn btn-primary btn-lg">
+            <i class="fa-solid fa-clipboard-list"></i>
+            Get a Free Estimate
+          </a>
+          <a href="tel:9044771756" class="cta-phone">
+            <i class="fa-solid fa-phone"></i>
+            (904) 477-1756
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICE AREA ===== -->
+    <section class="area-section" aria-label="Service Area">
+      <div class="container">
+        <span class="section-label">Where We Work</span>
+        <h2 class="section-heading fade-up">Proudly Serving Northeast Florida</h2>
+        <p class="section-sub fade-up delay-1" style="margin:0 auto">
+          Based in Ponte Vedra, we provide professional tree services to homeowners and businesses throughout St. Johns County and beyond.
+        </p>
+        <div class="area-tags fade-up delay-2">
+          <span class="area-tag"><i class="fa-solid fa-location-dot"></i> Ponte Vedra Beach</span>
+          <span class="area-tag"><i class="fa-solid fa-location-dot"></i> Ponte Vedra</span>
+          <span class="area-tag"><i class="fa-solid fa-location-dot"></i> Jacksonville Beach</span>
+          <span class="area-tag"><i class="fa-solid fa-location-dot"></i> Neptune Beach</span>
+          <span class="area-tag"><i class="fa-solid fa-location-dot"></i> St. Johns</span>
+          <span class="area-tag"><i class="fa-solid fa-location-dot"></i> Nocatee</span>
+          <span class="area-tag"><i class="fa-solid fa-location-dot"></i> Fleming Island</span>
+          <span class="area-tag"><i class="fa-solid fa-location-dot"></i> Orange Park</span>
+          <span class="area-tag"><i class="fa-solid fa-location-dot"></i> Jacksonville</span>
+          <span class="area-tag"><i class="fa-solid fa-location-dot"></i> &amp; More…</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT SNIPPET ===== -->
+    <section class="contact-section" id="contact" aria-label="Contact Us">
+      <div class="container contact-grid">
+        <!-- Info -->
+        <div class="contact-info fade-up">
+          <span class="section-label">Get In Touch</span>
+          <h2 class="section-heading">Let's Talk About Your Trees</h2>
+          <p>Have a tree that needs attention? Questions about one of our services? We'd love to hear from you. Reach out and we'll get back to you fast.</p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-item-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <strong>Phone</strong>
+                <a href="tel:9044771756">(904) 477-1756</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:pontevedratreecrew@gmail.com">pontevedratreecrew@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <strong>Service Area</strong>
+                <span>Ponte Vedra &amp; Northeast Florida</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon"><i class="fa-solid fa-clock"></i></div>
+              <div>
+                <strong>Hours</strong>
+                <span>Mon–Sat: 7:00 AM – 6:00 PM</span>
+              </div>
+            </div>
+          </div>
+
+          <a href="contact.html" class="btn btn-green">
+            <i class="fa-solid fa-arrow-right"></i>
+            Visit Our Contact Page
+          </a>
+        </div>
+
+        <!-- Quick Form -->
+        <div class="contact-form fade-up delay-2">
+          <h3>Quick Estimate Request</h3>
+          <form id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First Name *</label>
+                <input type="text" id="first-name" name="first-name" placeholder="John" required />
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name *</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Smith" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" placeholder="john@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="phone-num">Phone Number</label>
+              <input type="tel" id="phone-num" name="phone" placeholder="(904) 555-0100" />
+            </div>
+            <div class="form-group">
+              <label for="service">Service Needed *</label>
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Select a service…</option>
+                <option>Tree Removals &amp; Clean Up</option>
+                <option>Tree Trimming &amp; Pruning</option>
+                <option>Palm Pruning</option>
+                <option>Stump Grinding</option>
+                <option>Debris Removal</option>
+                <option>Multiple / Not Sure</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Tell us a bit more</label>
+              <textarea id="message" name="message" placeholder="Describe what you need — size of tree, number of stumps, location on property, etc."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit">
+              <i class="fa-solid fa-paper-plane"></i>
+              Send My Request
+            </button>
+          </form>
+          <div id="form-success" class="form-success">
+            <i class="fa-solid fa-circle-check" style="color:var(--primary)"></i>
+            <h3>Request Sent!</h3>
+            <p>Thank you! We'll get back to you within 24 hours with your free estimate.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <div class="logo-main">Ponte Vedra Tree</div>
+          <div class="logo-sub">Professional Tree Services</div>
+          <p>Your trusted local tree care experts in Ponte Vedra and throughout Northeast Florida. Licensed, insured, and committed to excellence.</p>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="Google Business"><i class="fa-brands fa-google"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">Free Estimate</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div>
+          <h4>Our Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html#tree-removal">Tree Removals &amp; Clean Up</a></li>
+            <li><a href="services.html#tree-trimming">Tree Trimming &amp; Pruning</a></li>
+            <li><a href="services.html#palm-pruning">Palm Pruning</a></li>
+            <li><a href="services.html#stump-grinding">Stump Grinding</a></li>
+            <li><a href="services.html#debris-removal">Debris Removal</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <h4>Contact Us</h4>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:9044771756">(904) 477-1756</a>
+            </li>
+            <li class="footer-contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:pontevedratreecrew@gmail.com">pontevedratreecrew@gmail.com</a>
+            </li>
+            <li class="footer-contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Ponte Vedra, FL</span>
+            </li>
+            <li class="footer-contact-item">
+              <i class="fa-solid fa-clock"></i>
+              <span>Mon–Sat: 7:00 AM – 6:00 PM</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Ponte Vedra Tree. All rights reserved.</p>
+        <p>Website by <a href="mailto:hoodjonathand@gmail.com">Jonathan Hood</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top btn btn-primary" aria-label="Back to top" style="position:fixed;bottom:2rem;right:2rem;width:48px;height:48px;border-radius:50%;padding:0;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .3s,transform .3s;z-index:999;">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
