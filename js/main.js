@@ -124,17 +124,33 @@
 
       if (!valid) return;
 
-      // Simulate form submission (replace with real endpoint / EmailJS / etc.)
+      // Submit to Formspree
       const submitBtn = contactForm.querySelector('.form-submit');
       const originalText = submitBtn.innerHTML;
       submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Sending…';
       submitBtn.disabled = true;
 
-      setTimeout(function () {
-        contactForm.style.display = 'none';
-        const success = document.getElementById('form-success');
-        if (success) success.style.display = 'block';
-      }, 1400);
+      const formData = new FormData(contactForm);
+
+      fetch(contactForm.action, {
+        method: 'POST',
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      }).then(function (response) {
+        if (response.ok) {
+          contactForm.style.display = 'none';
+          const success = document.getElementById('form-success');
+          if (success) success.style.display = 'block';
+        } else {
+          submitBtn.innerHTML = originalText;
+          submitBtn.disabled = false;
+          alert('Something went wrong. Please call us at 904-477-1756 or email pontevedratreecrew@gmail.com.');
+        }
+      }).catch(function () {
+        submitBtn.innerHTML = originalText;
+        submitBtn.disabled = false;
+        alert('Something went wrong. Please call us at 904-477-1756 or email pontevedratreecrew@gmail.com.');
+      });
     });
   }
 
