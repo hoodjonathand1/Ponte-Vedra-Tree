@@ -668,7 +668,15 @@ select { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmln
   display: flex;
   align-items: center;
   justify-content: center;
-  /* Replace with: background-image: url('images/[service].jpg'); background-size: cover; */
+  position: relative;
+}
+.service-detail-visual img {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .service-placeholder-icon { text-align: center; color: rgba(255,255,255,.5); }
 .service-placeholder-icon i { font-size: 4.5rem; display: block; margin-bottom: .75rem; }
